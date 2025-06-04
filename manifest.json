@@ -8,15 +8,15 @@
   },
   "components": [
     {
-      "id": "main",                   // unique id inside this manifest
-      "label": "Random Bar Chart",    // what users see in the chart picker
-      "type": "VISUALIZATION",        // required: VISUALIZATION | TABLE | CONTROL
-      "url": "index.js",              // relative path to your JS bundle
-      "styleUrls": ["style.css"],     // optional CSS
+      "id": "main",
+      "label": "Random Bar Chart",
+      "type": "VISUALIZATION", 
+      "url": "index.js",
+      "styleUrls": ["style.css"],
       "scripts": [
         "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"
       ],
-      "supportedType": "CHART"        // lets it show up under “Charts”
+      "supportedType": "CHART"
     }
   ]
 }
