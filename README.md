@@ -38,12 +38,13 @@ After you add it to a report you will see something like:
 2. Publish this repo with **GitHub Pages**  
    Settings ▸ Pages ▸ Source = “main / (root)”.
 
-3. Grab the manifest URL  
-https://YOUR-USER.github.io/YOUR-REPO/manifest.json
-4. In the report choose  
+3. Grab the manifest URL
+https://sekuenz.github.io/LookerStudioRepositorySKZ/manifest.json
+
+5. In the report choose  
 Insert ▸ Community visualizations ▸ **Build your own** ▸ paste the URL.
 
-5. Drag fields into the data panel:  
+6. Drag fields into the data panel:  
 • Date → Dimension 1  
 • Category → Dimension 2  
 • Number → Metric 1
