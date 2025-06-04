@@ -21,8 +21,11 @@ After you add it to a report you will see something like:
 
 ## Repo layout
 ├── manifest.json   # tells Looker Studio how to load the viz
+
 ├── index.js        # rendering logic (Chart.js in this sample)
+
 ├── style.css       # optional styling
+
 └── README.md
 
 ---
