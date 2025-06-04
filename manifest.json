@@ -3,22 +3,18 @@
   "organization": "Sekuenz",
   "description": "Community Visualization – Date + Category + Metric → simple bar chart.",
   "logoUrl": "https://sekuenz.com/wp-content/uploads/2024/05/sekeunz-logo-e1717595355421.png",
-
-  /* Optional but recommended URLs (fill in later if you have them) */
   "organizationUrl": "https://sekuenz.com",
   "supportUrl": "https://sekuenz.com/contact",
   "privacyPolicyUrl": "https://sekuenz.com/privacy-policy",
   "termsOfServiceUrl": "https://sekuenz.com/terms",
   "packageUrl": "https://sekuenz.github.io/LookerStudioRepositorySKZ",
 
-  /* Set to true while you’re testing so that only reports in
-     “Developer mode” can add the viz.  Flip to false when you
-     want any user to add it without dev-mode. */
+
   "devMode": true,
 
   "components": [
     {
-      "id": "randombarchart",                /* unique within the manifest */
+      "id": "randombarchart",
       "name": "Random Bar Chart",
       "description": "Starter bar chart to be customized.",
       "iconUrl": "https://dummyimage.com/48x48/2196f3/ffffff.png&text=B",
@@ -26,16 +22,8 @@
       "infoUrl": "https://github.com/sekuenz/LookerStudioRepositorySKZ",
 
       "resource": {
-        /* Paths are resolved relative to the manifest URL, so
-           index.js and style.css in the repo root work fine. */
         "js": "index.js",
-        "css": "style.css",
-
-        
-        /* "config": "viz-config.json" */
-        
-        /* Extra third-party libraries can be inlined in index.js or
-           loaded in code; no need to list them here. */
+        "css": "style.css"
       }
     }
   ]
