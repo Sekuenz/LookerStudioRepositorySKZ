@@ -15,7 +15,7 @@ Swap the code inside `index.js` to create any custom chart you like.
 
 After you add it to a report you will see something like:
 
-![screenshot](https://dummyimage.com/800x300/ffffff/000000&text=Bar+Chart+Preview)
+![screenshot]()
 
 ---
 
