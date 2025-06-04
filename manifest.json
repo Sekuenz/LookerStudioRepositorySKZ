@@ -1,9 +1,9 @@
 {
 "dataStudio": {
 "name": "Random Bar Chart (Sample)",
-"logoUrl": "https://dummyimage.com/32x32/2196f3/ffffff.png&text=B",
-"company": "My Lab",
-"description": "Takes Date + Dimension + Metric and draws a simple bar chart.",
+"logoUrl": "https://sekuenz.com/wp-content/uploads/2024/05/sekeunz-logo-e1717595355421.png",
+"company": "Sekuenz",
+"description": "Takes Date + Dimension + Metric and draws a simple bar chart to be improved.",
 "developerMode": true
 },
 "components": [
