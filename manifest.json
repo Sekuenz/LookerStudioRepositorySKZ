@@ -9,12 +9,12 @@
   "components": [
     {
       "id": "main",
-      "url": "index.js",          // relative path to your JS
+      "url": "index.js",          
       "visualization": {
         "supportedType": "CHART",
         "usesSvg": false
       },
-      "styleUrls": ["style.css"], // optional, can be omitted if you don’t use CSS
+      "styleUrls": ["style.css"], 
       "scripts": [
         "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"
       ]
