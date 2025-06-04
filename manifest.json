@@ -1,23 +1,22 @@
 {
-"dataStudio": {
-"name": "Random Bar Chart (Sample)",
-"logoUrl": "https://sekuenz.com/wp-content/uploads/2024/05/sekeunz-logo-e1717595355421.png",
-"company": "Sekuenz",
-"description": "Takes Date + Dimension + Metric and draws a simple bar chart to be improved.",
-"developerMode": true
-},
-"components": [
-{
-"id": "main",
-"url": "index.js",
-"visualization": {
-"supportedType": "TABLE",
-"usesSvg": false
-},
-"styleUrls": ["style.css"],
-"scripts": [
-"https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"
-]
-}
-]
+  "dataStudio": {
+    "name": "Random Bar Chart (Sample)",
+    "company": "Sekuenz",
+    "logoUrl": "https://sekuenz.com/wp-content/uploads/2024/05/sekeunz-logo-e1717595355421.png",
+    "description": "Takes Date + Dimension + Metric and draws a simple bar chart to be improved.",
+    "developerMode": true
+  },
+  "components": [
+    {
+      "id": "main",                   // unique id inside this manifest
+      "label": "Random Bar Chart",    // what users see in the chart picker
+      "type": "VISUALIZATION",        // required: VISUALIZATION | TABLE | CONTROL
+      "url": "index.js",              // relative path to your JS bundle
+      "styleUrls": ["style.css"],     // optional CSS
+      "scripts": [
+        "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"
+      ],
+      "supportedType": "CHART"        // lets it show up under “Charts”
+    }
+  ]
 }
