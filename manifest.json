@@ -1,1 +1,23 @@
-
+{
+  "dataStudio": {
+    "name": "Random Bar Chart (Sample)",
+    "company": "My Lab",
+    "logoUrl": "https://dummyimage.com/32x32/2196f3/ffffff.png&text=B",
+    "description": "Community Visualization that accepts: 1-Date dimension, 1-categorical dimension, 1-metric, and draws a basic bar chart.",
+    "developerMode": true
+  },
+  "components": [
+    {
+      "id": "main",
+      "url": "index.js",          // relative path to your JS
+      "visualization": {
+        "supportedType": "CHART",
+        "usesSvg": false
+      },
+      "styleUrls": ["style.css"], // optional, can be omitted if you don’t use CSS
+      "scripts": [
+        "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"
+      ]
+    }
+  ]
+}
