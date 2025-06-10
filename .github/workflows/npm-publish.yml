@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy to GCS
 
 on:
   push:
@@ -7,17 +7,13 @@ on:
 
 jobs:
   deploy:
-    name: Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - name: Sync
+      - name: Sync GCS Bucket
         uses: patrickwyler/gcs-bucket-sync-action@1.4
         with:
-          secrets: ${{ secrets.google_service_account_credentials }}
-          bucket: 'skz_lookerstudio_visualization_bucket/table2'
+          secrets: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_CREDENTIALS }}
+          bucket: 'skz_lookerstudio_visualization_bucket'
           exclude: '.*\.md$|\.gitignore$|\.git/.*$|\.github/.*$'
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
